@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>H+L Web Test</title>
-    <link rel="stylesheet" href="src/css/styles.css" />
-    <link href="src/js/scripts.js" />
+    <link rel="stylesheet" href="src/css/styles.css"/>
+    <script src="src/js/scripts.js"></script>
+
   </head>
   <body>
     <header id="header">
@@ -104,38 +105,88 @@
         <div class="container how_inner">
           <div class="how_title">
             <h2>HOW IT WORKS</h2>
-            <p>
-              Organize fundraisers in your community <br>Request a date for your
-              organization. 5 minutes is all it takes!
-            </p>
+            <p>Organize fundraisers in your community <br>Request a date for your organization. 5 minutes is all it takes!</p>
           </div>
           <div class="how_row">
-                <div class="row_item">
-                    <div><img src="src/img/calendar.svg" alt="calendar graphic" width="108" height="108"></div>
-                    <span>Book a Date</span>
-                    <p>Request your fundraiser’s date, time, and location.</p>
+              <div class="row_item">
+                <div>
+                  <div><img src="src/img/calendar.svg" alt="calendar graphic" width="108" height="108"></div>
+                  <span>Book a Date</span>
+                  <p>Request your fundraiser’s date, time, and location.</p>
                 </div>
-                <div class="row_item">
-                    <div><img src="src/img/communication.svg" alt="communication graphic" width="108" height="108"></div>
-                    <span>Spread the Word</span>
-                    <p>Get the word out and confirm your meal.</p>
+              </div>
+              <div class="row_item">
+                <div>
+                  <div><img src="src/img/communication.svg" alt="communication graphic" width="108" height="108"></div>
+                  <span>Spread the Word</span>
+                  <p>Get the word out and confirm your meal.</p>
                 </div>
-                <div class="row_item">
-                    <div><img src="src/img/foods.svg" alt="foods graphic" width="108" height="108"></div>
-                    <span>Eat & Raise</span>
-                    <p>Use your unique promo code on fundraising day.</p>
+              </div>
+              <div class="row_item">
+                <div>
+                  <div><img src="src/img/foods.svg" alt="foods graphic" width="108" height="108"></div>
+                  <span>Eat & Raise</span>
+                  <p>Use your unique promo code on fundraising day.</p>
+                </div> 
+              </div>
+              <div class="row_item">
+                <div>
+                  <div><img src="src/img/hand_heart.svg" alt="hands holding heart graphic" width="108" height="108"></div>
+                  <span>Receive 50%</span>
+                  <p>Receive 50% of proceeds to your organization.</p>
                 </div>
-                <div class="row_item">
-                    <div><img src="src/img/hand_heart.svg" alt="hands holding heart graphic" width="108" height="108"></div>
-                    <span>Receive 50%</span>
-                    <p>Receive 50% of proceeds to your organization.</p>
-                </div>
+              </div>
           </div>
           <div class="how_cta">
             <a href="#" class="cta-button">MaKE A DIFFERENCE</a>
           </div>
         </div>
       </section>
+      <section id="reviews">
+        <div class="container reviews_inner">
+          <div class="rating">
+            <span class="star_rate"></span><span class="star_rate"></span><span class="star_rate"></span><span class="star_rate"></span><span class="star_rate"></span>
+          </div>
+          <h3>REVIEW ABOUT THE FUNDRAISING</h3>
+          <div id="testimonials" class="carousel">
+            <div class="carousel-items">
+              <div class="carousel-item active">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat viverra lorem, eu interdum leo rutrum eget. Curabitur malesuada dui sed risus malesuada tempor. </p>
+                <div class="testimonial_name">
+                  <span>Name of the person</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat viverra lorem, eu interdum leo rutrum eget. Curabitur malesuada dui sed risus malesuada tempor. </p>
+                <div class="testimonial_name">
+                  <span>Name of the person</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat viverra lorem, eu interdum leo rutrum eget. Curabitur malesuada dui sed risus malesuada tempor. </p>
+                <div class="testimonial_name">
+                  <span>Name of the person</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat viverra lorem, eu interdum leo rutrum eget. Curabitur malesuada dui sed risus malesuada tempor. </p>
+                <div class="testimonial_name">
+                  <span>Name of the person</span>
+                </div>
+              </div>
+            </div>
+            <div class="controls">
+              <div class="dots"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <script>
+        let testimonials = document.getElementById('testimonials');
+        startCarousel(testimonials, 3000);
+      </script>
+    </footer>
   </body>
 </html>
