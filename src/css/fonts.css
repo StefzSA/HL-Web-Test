@@ -1,0 +1,16 @@
+/******** Fonts ********/
+@font-face {
+    font-family: "Flama";
+    src: url("../fonts/FlamaTrial-Basic-BF64c1db8a1e7f6.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Flama Semicondensed";
+    src: url("../fonts/FlamaSemiCondTrial-Semibold-BF64c1db893a254.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Roboto Semicondensed";
+    src: url("../fonts/RobotoCondensed-VariableFont_wght.ttf");
+    font-display: swap;   
+  }
