@@ -199,7 +199,7 @@ startCarousel(testimonials, 3000);
 
 const animated = document.querySelectorAll(".FadeInUp, .FadeInDown, .FadeInLeft, .FadeInRight");
 animated.forEach((element) => {
-  if (checkViewport(element)) {
+  if (checkViewport(element) ) {
     element.classList.add("animated");
   }
   window.addEventListener("scroll", () => {
@@ -208,3 +208,15 @@ animated.forEach((element) => {
     }
   });
 });
+
+const menu = document.getElementById('mb_menu');
+const iconToggle = document.getElementById('menu_toggle');
+if (menu) {
+  iconToggle.addEventListener('click', () => {
+    if (menu.hasAttribute('open')) {
+      iconToggle.firstChild.textContent = '☰';
+    } else {
+      iconToggle.firstChild.textContent = 'X';
+    }
+  });
+}

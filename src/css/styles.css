@@ -63,6 +63,7 @@
 }
 
 #header > .header_inner {
+  position: relative;
   font-family: "Flama";
   display: flex;
   justify-content: center;
@@ -70,6 +71,10 @@
   align-items: center;
   flex-wrap: wrap;
   flex-grow: 1;
+}
+#header > .header_inner > .logo {
+  z-index: 3;
+  position: relative;
 }
 
 #header > .header_inner > .nav {
@@ -87,12 +92,25 @@
   flex-wrap: wrap;
   gap: 2rem;
 }
+#header > .header_inner > .nav_mobile {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
 
 #header > .header_inner > .nav .cta > a {
   background-color: #ffffff;
   color: #0d0204;
   border-radius: 0.4rem;
   padding: 1.5rem 3rem;
+}
+#header > .header_inner > .nav_mobile .cta > a {
+  background-color: #ffffff;
+  color: #0d0204;
+  border-radius: 0.4rem;
+  padding: 1rem 2rem;
 }
 
 #hero {
@@ -637,7 +655,6 @@ footer > .footer_inner > .footer_links > a {
   #hero > .hero_inner > .hero_box > .hero_title {
     font-size: 3.25rem;
   }
-
 }
 @media only screen and (max-width: 1280px) {
   #fund > .fund_cols {
@@ -683,10 +700,10 @@ footer > .footer_inner > .footer_links > a {
     flex-wrap: wrap;
     max-width: 70%;
   }
-  #find > .find_inner > .right{
+  #find > .find_inner > .right {
     max-width: 70%;
   }
-  #find > .find_inner > .right > .find_title > h2{
+  #find > .find_inner > .right > .find_title > h2 {
     font-size: 2.5125rem;
   }
   .carousel-items {
@@ -694,6 +711,47 @@ footer > .footer_inner > .footer_links > a {
   }
 }
 @media only screen and (max-width: 910px) {
+  #header > .header_inner {
+    justify-content: space-between;
+    font-size: 1.8rem;
+  }
+  #header > .header_inner > .nav {
+    display: none;
+    z-index: 2;
+  }
+  #header > .header_inner > .nav_mobile {
+    display: flex;
+    transition: all .3s ease-in-out;
+  }
+  #header > .header_inner > .nav_mobile > details {
+    width: 100%;
+  }
+  
+  #header > .header_inner > .nav_mobile > details > ul {
+    background: #0d0204;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.875rem;
+    transition: all .5s ease-in-out;
+  }
+
+  #header > .header_inner > .nav_mobile > details > ul > li {
+    width: 100%;
+  }
+
+  #header > .header_inner > .nav_mobile > details > summary {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  #header > .header_inner > .nav_mobile > details > summary#menu_toggle{
+    padding: 0 1.5rem;
+  }
+
   #hero > .hero_inner > .hero_box > .hero_title {
     font-size: 2.25rem;
     width: 90%;
@@ -717,7 +775,7 @@ footer > .footer_inner > .footer_links > a {
   #find > .find_inner {
     max-width: 80%;
   }
-  #find > .find_inner > .right{
+  #find > .find_inner > .right {
     max-width: 80%;
   }
   footer > .footer_inner > .footer_links {
@@ -782,14 +840,14 @@ footer > .footer_inner > .footer_links > a {
     height: auto;
     width: 100%;
   }
-  #find > .find_inner > .right > .find_title > h2{
+  #find > .find_inner > .right > .find_title > h2 {
     font-size: 2.3125rem;
     text-align: center;
   }
-  #find > .find_inner > .right > .find_text > p{
+  #find > .find_inner > .right > .find_text > p {
     text-align: center;
   }
-  #find > .find_inner > .right > .find_cta{
+  #find > .find_inner > .right > .find_cta {
     justify-content: center;
   }
   .carousel {
