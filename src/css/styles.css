@@ -509,7 +509,7 @@ footer > .footer_inner > .footer_links > a {
     width: 100%;
   }
   #hero > .hero_inner > .hero_box > .hero_title {
-    font-size: 3.25rem;
+    font-size: 2.8rem;
   }
   #fund > .fund_inner > .fund_misc > .ellipse {
     display: none;
@@ -534,6 +534,18 @@ footer > .footer_inner > .footer_links > a {
   }
 }
 @media only screen and (max-width: 910px) {
+  #hero > .hero_inner > .hero_box > .hero_title{
+    font-size: 2.25rem;
+    width: 90%; 
+  }
+  #hero > .hero_inner > .hero_img{
+    display: none;
+  }
+  #hero > .hero_inner > .hero_box{
+    width: 100%;
+    padding: 4rem 2rem;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/hero.png) center center/cover no-repeat;
+  }
   footer > .footer_inner > .footer_links {
     order: 0;
     justify-content: space-around;
@@ -554,6 +566,9 @@ footer > .footer_inner > .footer_links > a {
   }
 }
 @media only screen and (max-width: 768px) {
+  #banner > .banner_inner > div {
+    font-size: 0.594rem;
+  }
   #fund {
     margin: 5rem 2rem !important;
   }
