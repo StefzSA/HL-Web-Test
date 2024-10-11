@@ -213,6 +213,7 @@
   line-height: 6.15rem;
   text-align: center;
   flex-grow: 1;
+  width: 100%;
 }
 
 #fund > .fund_inner > .fund_misc > div > p {
@@ -418,9 +419,12 @@
   height: 1.536rem;
   background: url(../img/star_rate.svg) center center/contain no-repeat;
 }
-
-#reviews > .reviews_inner h3 {
+#reviews > .reviews_inner > .reviews_title {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#reviews > .reviews_inner > div h3 {
   font-family: "Roboto Condensed";
   font-size: 1.563rem;
   font-weight: 700;
@@ -636,6 +640,94 @@ footer > .footer_inner > .footer_links > a {
     padding: 2.875rem 2.5rem;
   }
 }
+
+/***************** ANIMATIONS *****************/
+.op-0{
+  transition: all .5s ease-in-out;
+  opacity: 0;
+}
+.animated.FadeInUp{
+  animation: .8s FadeInUp ease-in-out forwards;
+}
+.animated.FadeInDown{
+  animation: .8s FadeInDown ease-in-out forwards;
+}
+.animated.FadeInLeft{
+  animation: .8s FadeInLeft ease-in-out forwards;
+}
+.animated.FadeInRight{
+  animation: .8s FadeInRight ease-in-out forwards;
+}
+
+/******** PROPERTIES ********/
+.anim_delay-250ms {
+  animation-delay: 0.25s!important;
+}
+
+.anim_delay-500ms {
+  animation-delay: 0.5s!important;
+}
+
+.anim_delay-750ms {
+  animation-delay: 0.75s!important;
+}
+
+.anim_delay-1s {
+  animation-delay: 1s!important;
+}
+
+/******** PROPERTIES ********/
+
+/******** BASIC ********/
+@keyframes FadeInLeft {
+  from {
+    transform: translateX(-80%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes FadeInRight {
+  from {
+    transform: translateX(80%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes FadeInDown {
+  from {
+    transform: translateY(-80%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes FadeInUp {
+  from {
+    transform: translateY(80%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+
 /********************* Carousel Styles *********************/
 .carousel {
   width: 45%;
