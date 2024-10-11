@@ -4,12 +4,12 @@
 
 .cta-button {
   font-family: "Flama Semicondensed";
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02rem;
   font-size: 1.25rem;
   text-align: center;
   text-transform: uppercase;
   background-color: #f4a900;
-  border-radius: 6.4px;
+  border-radius: 0.4rem;
   color: #0d0204;
   padding: 1rem 2rem;
 }
@@ -22,8 +22,14 @@
   width: 100%;
   color: #0d0204;
 }
+#banner > button {
+  font-family: "Flama";
+  position: absolute;
+  top: 25%;
+  right:10%;
+}
 #banner > .banner_inner {
-  min-height: 48.5px;
+  min-height: 3.0313rem;
   font-family: "Flama";
   display: flex;
   justify-content: center;
@@ -31,9 +37,14 @@
 }
 #banner > .banner_inner > div {
   min-width: 99%;
-  text-align: center;
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+#banner > .banner_inner > div p {
+  max-width: 60%;
   font-size: 0.894rem;
+  text-align: center;
 }
 
 #banner > .banner_inner > button {
@@ -42,8 +53,8 @@
 }
 
 #header {
-  margin-top: 48.5px;
-  min-height: 104px;
+  margin-top: 3.0313rem;
+  min-height: 6.5rem;
   background-color: #0d0204;
   color: #ffffff;
   display: flex;
@@ -80,7 +91,7 @@
 #header > .header_inner > .nav .cta > a {
   background-color: #ffffff;
   color: #0d0204;
-  border-radius: 6.4px;
+  border-radius: 0.4rem;
   padding: 1.5rem 3rem;
 }
 
@@ -95,8 +106,8 @@
   align-content: center;
 }
 #hero > .hero_inner > .hero_img {
-  width: 849px;
-  height: 498px;
+  width: 53.0625rem;
+  height: 31.125rem;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -127,8 +138,8 @@
 #hero > .hero_inner > .hero_box > .hero_desc {
   font-size: 1.375rem;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
 }
 #hero > .hero_inner > .hero_box > .hero_cta {
   display: flex;
@@ -136,12 +147,12 @@
 }
 #hero > .hero_inner > .hero_box > .hero_cta a {
   font-family: "Flama Semicondensed";
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02rem;
   font-size: 1.25rem;
   text-align: center;
   text-transform: uppercase;
   background-color: #f4a900;
-  border-radius: 6.4px;
+  border-radius: 0.4rem;
   color: #0d0204;
   padding: 1rem 2rem;
 }
@@ -197,26 +208,26 @@
 #fund > .fund_inner > .fund_misc > div > span {
   color: #005740;
   font-family: "Flama Semicondensed";
-  font-size: 82px;
+  font-size: 5.125rem;
   font-weight: 700;
-  line-height: 98.4px;
+  line-height: 6.15rem;
   text-align: center;
   flex-grow: 1;
 }
 
 #fund > .fund_inner > .fund_misc > div > p {
   font-family: "Flama Semicondensed";
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
-  line-height: 26.4px;
+  line-height: 1.65rem;
   text-align: center;
   text-transform: uppercase;
   flex-grow: 1;
 }
 
 #fund > .fund_inner > .fund_misc > .ellipse {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   background-color: #a8d6ae;
   border-radius: 50%;
 }
@@ -260,7 +271,7 @@
   width: 50%;
   margin-top: 2.75rem;
   gap: 1.875rem;
-  min-height: 380px;
+  min-height: 23.75rem;
 }
 
 #fund > .fund_cols > .left h2 {
@@ -434,16 +445,16 @@
 footer {
   background-color: #000000;
   width: 100%;
-  min-height: 154px;
+  min-height: 9.625rem;
 }
 
 footer > .footer_inner {
-  padding: 46px 80px;
+  padding: 2.875rem 5rem;
   color: white;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  row-gap: 30px;
+  row-gap: 1.875rem;
 }
 footer > .footer_inner > .footer_rights {
   flex-grow: 1;
@@ -453,9 +464,9 @@ footer > .footer_inner > .footer_rights {
 
 footer > .footer_inner > .footer_rights > p {
   font-family: Flama;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 31.44px;
+  line-height: 1.965rem;
   text-align: left;
 }
 
@@ -465,14 +476,14 @@ footer > .footer_inner > .footer_links {
   display: flex;
   justify-content: end;
   align-items: center;
-  gap: 113px;
+  gap: 7.0625rem;
 }
 
 footer > .footer_inner > .footer_links > a {
   font-family: Flama;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 31.44px;
+  line-height: 1.965rem;
   text-align: left;
   text-decoration: underline;
 }
@@ -546,6 +557,13 @@ footer > .footer_inner > .footer_links > a {
     padding: 4rem 2rem;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/hero.png) center center/cover no-repeat;
   }
+  #how > .how_inner > .how_title > p {
+    font-family: Flama;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    text-align: center;
+    flex-grow: 1;
+  }
   footer > .footer_inner > .footer_links {
     order: 0;
     justify-content: space-around;
@@ -566,14 +584,14 @@ footer > .footer_inner > .footer_links > a {
   }
 }
 @media only screen and (max-width: 768px) {
-  #banner > .banner_inner > div {
-    font-size: 0.594rem;
+  #banner > .banner_inner > div p{
+    font-size: 0.740rem;
   }
   #fund {
     margin: 5rem 2rem !important;
   }
   #fund > .fund_inner > .fund_title > h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   #fund > .fund_inner > .fund_title > span {
     font-size: 1.25rem;
@@ -585,6 +603,12 @@ footer > .footer_inner > .footer_links > a {
   #fund > .fund_cols > .left {
     width: 100%;
     order: 0;
+    justify-content: center;
+  }
+
+  #fund > .fund_cols > .left > h2, 
+  #fund > .fund_cols > .left > p{
+    text-align: justify!important;
   }
   #fund > .fund_cols > .right {
     width: 80%;
@@ -609,7 +633,7 @@ footer > .footer_inner > .footer_links > a {
     min-height: 20rem !important;
   }
   footer > .footer_inner {
-    padding: 46px 40px;
+    padding: 2.875rem 2.5rem;
   }
 }
 /********************* Carousel Styles *********************/
@@ -656,7 +680,7 @@ footer > .footer_inner > .footer_links > a {
 }
 
 .dots {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -666,7 +690,7 @@ footer > .footer_inner > .footer_links > a {
 .dot {
   aspect-ratio: 4/4;
   cursor: pointer;
-  margin: 0 3px;
+  margin: 0 0.1875rem;
   border-radius: 100%;
   display: inline-block;
   transition: all 0.6s ease-in-out;
@@ -674,8 +698,8 @@ footer > .footer_inner > .footer_links > a {
   height: 0.625rem;
   width: 0.625rem;
   @media (max-width: 768px) {
-    width: 15px;
-    height: 15px;
+    width: 0.9375rem;
+    height: 0.9375rem;
   }
 }
 

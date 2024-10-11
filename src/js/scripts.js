@@ -1,7 +1,13 @@
 // Made by StefanoGSA :)
+const banner = document.getElementById("banner");
+const closeBanner = document.querySelector(".banner_close");
+closeBanner.addEventListener("click", () => {
+  let header = document.getElementById("header");
+  banner.style.display = 'none';
+  header.style.marginTop = '0'
+});
 
 const carousel = document.getElementById("testimonials");
-
 function startCarousel(carousel, interval) {
   const carouselItems = carousel.querySelectorAll(".carousel-item");
 
@@ -142,3 +148,6 @@ function updateDots(carousel) {
     activeDot.classList.add("active");
     activeDot.setAttribute("disabled", true);
   }
+
+  let testimonials = document.getElementById('testimonials');
+        startCarousel(testimonials, 3000);

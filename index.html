@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>H+L Web Test</title>
     <link rel="stylesheet" href="src/css/styles.css"/>
-    <script src="src/js/scripts.js"></script>
+    <script defer src="src/js/scripts.js"></script>
   </head>
   <body>
     <header id="header">
       <section id="banner">
         <div class="container banner_inner">
-          <div>
-            It's DIGs-giving. Try our limited-time stuffing or grab a turkey for
-            the table.
+          <div class="text-wrapper">
+            <p>It's DIGs-giving. Try our limited-time stuffing or grab a turkey for
+              the table.</p>
           </div>
-          <button>x</button>
         </div>
+        <button class="banner_close">x</button>
       </section>
       <div class="container header_inner">
         <div class="logo">
@@ -192,10 +192,6 @@
           <a>Terms of Use</a>
         </div>
       </div>
-      <script>
-        let testimonials = document.getElementById('testimonials');
-        startCarousel(testimonials, 3000);
-      </script>
     </footer>
   </body>
 </html>
