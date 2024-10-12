@@ -443,7 +443,7 @@
   justify-content: center;
 }
 #reviews > .reviews_inner > div h3 {
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;;
   font-size: 1.563rem;
   font-weight: 700;
   line-height: 2.063rem;
@@ -457,7 +457,7 @@
 }
 
 #reviews > .reviews_inner .testimonial_name > span {
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.375rem;
@@ -723,10 +723,15 @@ footer > .footer_inner > .footer_links > a {
     display: flex;
     transition: all .3s ease-in-out;
   }
+
   #header > .header_inner > .nav_mobile > details {
     width: 100%;
   }
-  
+
+  #header > .header_inner > .nav_mobile > details summary::-webkit-details-marker {
+        display: none;
+  }
+
   #header > .header_inner > .nav_mobile > details > ul {
     background: #0d0204;
     width: 100%;
@@ -819,8 +824,10 @@ footer > .footer_inner > .footer_links > a {
     order: 0;
     justify-content: center;
   }
-
-  #fund > .fund_cols > .left > h2,
+  #fund > .fund_cols > .left > h2{
+    text-align: center;
+    font-size: 2.175rem;
+  }
   #fund > .fund_cols > .left > p {
     text-align: justify !important;
   }
@@ -839,6 +846,12 @@ footer > .footer_inner > .footer_links > a {
   #fund > .fund_cols > .right > .right_img > img {
     height: auto;
     width: 100%;
+  }
+  #find > .find_inner > .left {
+    max-width: 100%;
+  }
+  #find > .find_inner > .right {
+    max-width: 100%;
   }
   #find > .find_inner > .right > .find_title > h2 {
     font-size: 2.3125rem;
@@ -977,7 +990,7 @@ footer > .footer_inner > .footer_links > a {
 }
 
 .carousel-item p {
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.688rem;
