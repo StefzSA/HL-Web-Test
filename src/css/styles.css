@@ -3,7 +3,7 @@
 @import url(fonts.css);
 
 .cta-button {
-  font-family: "Flama Semicondensed";
+  font-family: "Flama Semicondensed", Arial, Helvetica, sans-serif;
   letter-spacing: 0.02rem;
   font-size: 1.25rem;
   text-align: center;
@@ -23,14 +23,14 @@
   color: #0d0204;
 }
 #banner > button {
-  font-family: "Flama";
+  font-family: "Flama", Arial, Helvetica, sans-serif;
   position: absolute;
   top: 25%;
   right: 10%;
 }
 #banner > .banner_inner {
   min-height: 3.0313rem;
-  font-family: "Flama";
+  font-family: "Flama", Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +64,7 @@
 
 #header > .header_inner {
   position: relative;
-  font-family: "Flama";
+  font-family: "Flama", Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -135,7 +135,7 @@
   background: url(../img/hero.png) center center/cover;
 }
 #hero > .hero_inner > .hero_box {
-  font-family: "Roboto Semicondensed";
+  font-family: "Roboto Semicondensed", Arial, Helvetica, sans-serif;
   color: #ffffff;
   padding: 0rem 4rem;
   display: flex;
@@ -146,7 +146,7 @@
   width: 45%;
 }
 #hero > .hero_inner > .hero_box > .hero_title {
-  font-family: "Flama Semicondensed";
+  font-family: "Flama Semicondensed", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 3.75rem;
   text-align: center;
@@ -164,7 +164,7 @@
   justify-content: center;
 }
 #hero > .hero_inner > .hero_box > .hero_cta a {
-  font-family: "Flama Semicondensed";
+  font-family: "Flama Semicondensed", Arial, Helvetica, sans-serif;
   letter-spacing: 0.02rem;
   font-size: 1.25rem;
   text-align: center;
@@ -176,7 +176,7 @@
 }
 
 #fund {
-  font-family: "Flama";
+  font-family: "Flama", Arial, Helvetica, sans-serif;
   margin: 5rem 5.25rem;
 }
 
@@ -194,7 +194,7 @@
   gap: 0.625rem;
 }
 #fund > .fund_inner > .fund_title > h2 {
-  font-family: "Flama Semicondensed";
+  font-family: "Flama Semicondensed", Arial, Helvetica, sans-serif;
   width: 100%;
   text-align: center;
   font-size: 2.5rem;
@@ -225,7 +225,7 @@
 
 #fund > .fund_inner > .fund_misc > div > span {
   color: #005740;
-  font-family: "Flama Semicondensed";
+  font-family: "Flama Semicondensed", Arial, Helvetica, sans-serif;
   font-size: 5.125rem;
   font-weight: 700;
   line-height: 6.15rem;
@@ -235,7 +235,7 @@
 }
 
 #fund > .fund_inner > .fund_misc > div > p {
-  font-family: "Flama Semicondensed";
+  font-family: "Flama Semicondensed", Arial, Helvetica, sans-serif;
   font-size: 1.375rem;
   font-weight: 700;
   line-height: 1.65rem;
@@ -295,7 +295,7 @@
 
 #fund > .fund_cols > .left h2 {
   flex-grow: 1;
-  font-family: "Flama Semicondensed";
+  font-family: "Flama Semicondensed", Arial, Helvetica, sans-serif;
   font-size: 2.375rem;
   line-height: 3.375rem;
   text-transform: uppercase;
@@ -303,7 +303,7 @@
 }
 
 #fund > .fund_cols > .left p {
-  font-family: Flama;
+  font-family: Flama, Arial, Helvetica, sans-serif;
   font-size: 1.375rem;
   line-height: 1.875rem;
   text-align: left;
@@ -312,7 +312,7 @@
 
 #fund > .fund_cols > .left p:last-child {
   width: 100%;
-  font-family: "Flama";
+  font-family: "Flama", Arial, Helvetica, sans-serif;
   font-size: 1.125rem;
   line-height: 1.875rem;
   text-align: left;
@@ -351,7 +351,7 @@
 #how > .how_inner > .how_title > h2 {
   width: 100%;
   color: #005740;
-  font-family: "Flama Semicondensed";
+  font-family: "Flama Semicondensed", Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 2.75rem;
@@ -360,7 +360,7 @@
 }
 
 #how > .how_inner > .how_title > p {
-  font-family: Flama;
+  font-family: Flama, Arial, Helvetica, sans-serif;
   font-size: 1.375rem;
   line-height: 1.875rem;
   text-align: center;
@@ -393,7 +393,7 @@
 
 #how > .how_inner > .how_row > .row_item span {
   color: #005740;
-  font-family: Flama Semicondensed;
+  font-family: Flama Semicondensed, Arial, Helvetica, sans-serif;
   font-size: 1.375rem;
   font-weight: 700;
   line-height: 1.5rem;
@@ -403,7 +403,7 @@
 
 #how > .how_inner > .how_row > .row_item p {
   width: 95%;
-  font-family: Flama;
+  font-family: Flama, Arial, Helvetica, sans-serif;
   font-size: 1.125rem;
   line-height: 1.35rem;
   text-align: center;
@@ -443,7 +443,7 @@
   justify-content: center;
 }
 #reviews > .reviews_inner > div h3 {
-  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   font-size: 1.563rem;
   font-weight: 700;
   line-height: 2.063rem;
@@ -457,7 +457,7 @@
 }
 
 #reviews > .reviews_inner .testimonial_name > span {
-  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.375rem;
@@ -517,7 +517,7 @@
 }
 
 #find > .find_inner > .left > .square.more_locations > div:first-child > span {
-  font-family: Flama Semicondensed;
+  font-family: Flama Semicondensed, Arial, Helvetica, sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.125rem;
@@ -526,7 +526,7 @@
   color: #005740;
 }
 #find > .find_inner > .left > .square.more_locations > div:last-child {
-  font-family: Flama;
+  font-family: Flama, Arial, Helvetica, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.35rem;
@@ -541,7 +541,7 @@
   background-color: #000000;
   color: white;
   padding: 0.9375rem 1.5625rem;
-  font-family: Flama Semicondensed;
+  font-family: Flama Semicondensed, Arial, Helvetica, sans-serif;
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 1.925rem;
@@ -564,7 +564,7 @@
 }
 
 #find > .find_inner > .right > .find_title > h2 {
-  font-family: Flama Semicondensed;
+  font-family: Flama Semicondensed, Arial, Helvetica, sans-serif;
   font-size: 2.8125rem;
   font-weight: 700;
   line-height: 3.375rem;
@@ -576,7 +576,7 @@
   width: 100%;
 }
 #find > .find_inner > .right > .find_text > p {
-  font-family: Flama;
+  font-family: Flama, Arial, Helvetica, sans-serif;
   font-size: 1.375rem;
   font-weight: 400;
   line-height: 2rem;
@@ -588,7 +588,7 @@
 }
 #find > .find_inner > .right > .find_cta > a {
   padding: 1.3rem 3.5794rem;
-  font-family: Flama Semicondensed;
+  font-family: Flama Semicondensed, Arial, Helvetica, sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.35rem;
@@ -619,7 +619,7 @@ footer > .footer_inner > .footer_rights {
 }
 
 footer > .footer_inner > .footer_rights > p {
-  font-family: Flama;
+  font-family: Flama, Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.965rem;
@@ -636,7 +636,7 @@ footer > .footer_inner > .footer_links {
 }
 
 footer > .footer_inner > .footer_links > a {
-  font-family: Flama;
+  font-family: Flama, Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.965rem;
@@ -685,7 +685,7 @@ footer > .footer_inner > .footer_links > a {
     width: 100%;
   }
   #how > .how_inner > .how_title > p {
-    font-family: Flama;
+    font-family: Flama, Arial, Helvetica, sans-serif;
     font-size: 1.125rem;
     line-height: 1.875rem;
     text-align: center;
@@ -771,7 +771,7 @@ footer > .footer_inner > .footer_links > a {
       url(../img/hero.png) center center/cover no-repeat;
   }
   #how > .how_inner > .how_title > p {
-    font-family: Flama;
+    font-family: Flama, Arial, Helvetica, sans-serif;
     font-size: 1.125rem;
     line-height: 1.875rem;
     text-align: center;
